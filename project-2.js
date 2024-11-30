@@ -31,7 +31,7 @@ export class Project2 extends DDDSuper(LitElement) {
     return css`
       :host {
         display: block;
-        font-family: 'UnifrakturCook', serif;
+        font-family: 'UnifrakturMaguntia', serif;
       }
 
       .controls {
@@ -41,7 +41,7 @@ export class Project2 extends DDDSuper(LitElement) {
       }
 
       label {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
         color: #ffffff;
       }
@@ -49,12 +49,17 @@ export class Project2 extends DDDSuper(LitElement) {
       select,
       button {
         padding: 10px;
-        font-size: 14px;
+        font-size: 16px;
         border-radius: 5px;
         border: none;
         background-color: #1e5128;
         color: #ffffff;
         transition: all 0.3s ease;
+      }
+
+      select {
+        width: 50%;
+        text-align: center;
       }
 
       select:hover,
