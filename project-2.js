@@ -44,12 +44,14 @@ export class Project2 extends DDDSuper(LitElement) {
         font-size: 16px;
         font-weight: bold;
         color: #ffffff;
+        font-family: 'Cinzel', serif;
       }
 
       select,
       button {
         padding: 10px;
         font-size: 16px;
+        font-family: 'Cinzel', serif;
         border-radius: 5px;
         border: none;
         background-color: #1e5128;
